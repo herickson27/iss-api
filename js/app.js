@@ -37,7 +37,7 @@ fetch(url) //fetch from this link
     
     })
         images = images.filter(function(images){
-            if (images.includes('jpeg') || images.includes('jpg') || images.includes('png') {
+            if (images.includes('jpeg') || images.includes('jpg') || images.includes('png')) {
                 return true;
             } else {
                 return false;
